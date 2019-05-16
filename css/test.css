@@ -1,0 +1,209 @@
+
+/*导航栏*/
+body{
+    margin: 0px; padding: 0px;
+}
+
+.topbox{
+
+    width: 1300px;
+    height: 95px;
+    margin: auto;
+    position: relative;
+
+}
+.logo{
+
+
+    width: 350px;
+    height: 90px;
+    background: url("../imgs/4.png") no-repeat 0 0;
+}
+.topimg{
+ float: right;
+    position: absolute; right: 0px; top: 5px;
+
+
+
+}
+.box{
+
+    width: 100%;
+    background: #3b8de3;
+    height: 40px;
+
+
+}
+.two{
+    width: 1300px;
+    margin: auto;
+
+
+}
+.right{
+    float: right;
+    background: #0185e1;
+    height: 100%;
+    position: relative;
+}
+.left{
+
+}
+.left a{
+    padding: 0 30px;
+    float: left;
+
+}
+.right a{
+    padding: 0 25px;
+    font-size: 14px;
+
+}
+ .box a{
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+
+
+}
+.box .active{
+    color: #3b8de3;
+    background-color: white;
+    border-top: 2px orange solid;
+}
+.left a:hover{
+    color: #3b8de3;
+    background-color: white;
+    border-top: 2px orange solid;
+}
+.right a:hover{
+    color: #3b8de3;
+    background-color: white;
+    border-top: 2px orange solid;
+}
+.head{
+    background: url("../imgs/logo.png") no-repeat -314px -500px;
+}
+
+.sanjiao{
+    width: 0; height: 0;
+    border-top: 10px solid #fff;
+    border-left: 5px solid #0185e1;
+    border-right: 5px solid #0185e1;
+    position:absolute; left: 245px; top: 15px;
+}
+
+/*
+热门城市*/
+.city{
+    width: 100%;
+    height: 30px;
+    color: #3b8de3;
+    float: left;
+    margin-left: 120px;
+
+}
+.city .hot{
+    color: #000;
+    float: left;
+
+
+}
+.city a{
+    text-decoration: none;
+    float: left;
+    margin: 0 10px;
+    color: #3b8de3;
+}
+.banner{
+    height: 380px; width: 100%;
+    position:relative;
+}
+.banner.banner1{
+    float: left;
+    background: url("../imgs/lunbo1.png") no-repeat 0 0;
+
+    position: absolute; left: 0; top: 0;
+}
+.banner.banner2{
+    float: left;
+    background: url("../imgs/lunbo2.png") no-repeat 0 0;
+    position: absolute; left: 0; top: 0;
+
+}
+.banner.btn{
+    float: left;
+    height: 20px;
+    width: 200px;
+    position: absolute; right: 20px; top: 340px;
+    z-index: 999;
+
+}
+
+.banner.btn.btn1{
+    height: 10px; width: 50px;
+    position: absolute; left: 2px;top: 0px;
+    background-color: black;
+
+
+}
+
+.banner.btn.btn2{
+    height: 10px; width: 50px;
+    position: absolute; left: 80px;top: 0px;
+    background-color: orange;
+
+}
+
+.hotload{
+
+    height: 50px; width: 1300px; margin: auto;
+    border-bottom: 5px solid #ccc;
+    top:100px; position: relative;
+
+}
+.hotloadhead{
+    font-size: 30px;
+}
+.hotloadfoot{
+    float: right;
+    position: absolute;bottom: -5px; right: 15px;
+    z-index: 2;
+}
+.hotloadfoot a{
+
+    float: left;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0px 20px;
+    line-height: 50px;
+    color: black;
+}
+.hotloadfoot.active a{
+    color: #3b8de3;
+    background-color: #3b8de3;
+    border-bottom: 5px solid #3b8de3;
+}
+.hotloadfoot a:hover{
+    color: #3b8de3;
+    border-bottom: 5px solid #3b8de3;
+
+}
+
+.piaobox{
+
+    width: 1300px;height: 400px;
+    margin: 150px 110px;
+    border: 2px solid red;
+
+
+}
+.piaobox.piao{
+
+    width: 20px; height: 130px;
+    border: 2px solid red;
+
+}
+

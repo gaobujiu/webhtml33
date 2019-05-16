@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taiji</title>
+
+    <style>
+        div{
+            width: 96px;
+            height: 48px;
+            border:2px solid #000;
+            border-bottom: 50px solid #000;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            transition: all 2s ease;
+
+        }
+        div:before{
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border: 20px solid #000;
+            background: #fff;
+            border-radius: 50%;
+            right: 0;
+            top: 50%;
+
+        }
+        div:after{
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border: 20px solid #fff;
+            background: #000;
+            border-radius: 50%;
+            left: 0;
+            top: 50%;
+
+        }
+
+
+    </style>
+
+ <script>
+
+     window.onload=function (ev) {
+
+         var div=document.querySelector("div")
+
+         div.onmouseover=function (ev) {
+             div.style.transform="rotate(180deg)";
+         }
+
+
+     }
+
+
+
+
+ </script>
+
+</head>
+<body>
+
+<div> </div>
+<a href="http://www.baidu.com">baidu</a>
+<img src="imgs/1.png" alt="这是一个图片" title="这是八重樱" height="100" width="180">
+
+
+<ul>
+
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+
+</ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+
+    </ol>
+<table>
+
+    <tr>
+        <th>性别</th>
+        <th>age</th>
+        <th>性别</th>
+
+    </tr>
+    <tr>
+
+        <td>刘君</td>
+        <td>20</td>
+        <td>男</td>
+
+
+    </tr>
+</table>
+
+<div>1</div>
+<div>2</div>
+
+</body>
+</html>

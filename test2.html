@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+
+        width: 200px;
+        height: 200px;
+        border-color: #000;
+        border-style: dashed;
+        border-width: 10px;
+
+        margin: 20px;
+
+        padding: 10px;
+
+        float: left;
+        text-align: center;
+        margin: auto;
+
+        position: absolute; left: 10px; top: 20px;  /*谁的左上角，如果没有定位属性的前辈元素，就相对于浏览器定位*/
+
+        z-index: 2;
+
+        position: relative;
+
+        position: fixed;  /*固定定位*/
+
+
+    }
+
+</style>
+<body>
+
+
+
+<div>
+    我是div <br>
+    我还是div<br>
+    我也是div<br>
+
+</div>
+
+<div>
+
+    我才是div
+</div>
+
+</body>
+</html>
